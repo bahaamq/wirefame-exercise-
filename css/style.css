@@ -93,12 +93,33 @@ margin-left: 5%;
     margin-top: 10%;
     line-height: 150%;
 
+    
+}
+#text p
+{
+    overflow-y: scroll;
+    height: 120px;
 }
 
+
+button
+{
+color: white;
+background-color: black;
+padding: 3%;
+margin-top: 3%;
+}
+
+button:hover
+{
+    background: red;
+    transition: background 350ms;
+
+}
 
 footer
 {
     background-color: #444444;
-    height: 30px;
+  padding-bottom: 30px;
 }
 
